@@ -1,0 +1,14 @@
+{
+  "FolderOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"spr_player_hwalk","order":2,"path":"sprites/spr_player_hwalk/spr_player_hwalk.yy",},
+    {"name":"obj_wall","order":1,"path":"objects/obj_wall/obj_wall.yy",},
+    {"name":"spr_player_downwalk","order":4,"path":"sprites/spr_player_downwalk/spr_player_downwalk.yy",},
+    {"name":"spr_player2_downwalk","order":7,"path":"sprites/spr_player2_downwalk/spr_player2_downwalk.yy",},
+    {"name":"spr_player2_upwalk","order":6,"path":"sprites/spr_player2_upwalk/spr_player2_upwalk.yy",},
+    {"name":"spr_player_idle","order":1,"path":"sprites/spr_player_idle/spr_player_idle.yy",},
+    {"name":"spr_player_upwalk","order":3,"path":"sprites/spr_player_upwalk/spr_player_upwalk.yy",},
+    {"name":"spr_room","order":1,"path":"sprites/spr_room/spr_room.yy",},
+    {"name":"spr_player2_hwalk","order":5,"path":"sprites/spr_player2_hwalk/spr_player2_hwalk.yy",},
+  ],
+}
