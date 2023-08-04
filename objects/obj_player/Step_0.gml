@@ -1,32 +1,41 @@
 #region controles
-key_right = keyboard_check(ord("D")) //direita
-key_left = keyboard_check(ord("A"))//esquerda
-key_up = keyboard_check(ord("W"))//cima
-key_down = keyboard_check(ord("S"))//baixo
+var _key_right = keyboard_check(ord("D")) //direita
+var _key_left = keyboard_check(ord("A"))//esquerda
+var _key_up = keyboard_check(ord("W"))//cima
+var _key_down = keyboard_check(ord("S"))//baixo
+var _fire = mouse_check_button_released(mb_left)//tiro
 #endregion
-
 #region movimentação
-var hmove = key_right - key_left
-var vmove = key_down - key_up
+var _hmove = _key_right - _key_left
+var _vmove = _key_down - _key_up
 
-hspd = hmove * spd;
+var _hspd = _hmove * spd;
 
-vspd = vmove * spd;
+var _vspd = _vmove * spd;
 
+#endregion
+#region tiro
+//Criando o tiro
 
+if (_fire){
+	var _tiro =	instance_create_layer(x, y, "Tiros", obj_tiros);
+	_tiro.speed = 10;
+	_tiro.direction = point_direction(x, y, mouse_x, mouse_y);
+}
+#endregion
 #region definir sprites
 
-if (hspd != 0)
+if (_hspd != 0)
 {
 	sprite_index = spr_player_hwalk;
 	
 }
 
-else if (vspd < 0)
+else if (_vspd < 0)
 {
 	sprite_index = spr_player_upwalk;
 }
-else if (vspd > 0)
+else if (_vspd > 0)
 {
 	sprite_index = spr_player_downwalk;
 }
@@ -37,29 +46,30 @@ else
 }
 
 #endregion
+#region colisão
 
-if (hspd != 0) image_xscale = sign(hspd);
+if (_hspd != 0) image_xscale = sign(_hspd);
 
 
 //colisão horizonal
-if place_meeting(x+hspd,y,obj_wall)
+if place_meeting(x+_hspd,y,obj_wall)
 {
-while(!place_meeting(x+sign(hspd),y,obj_wall))
+while(!place_meeting(x+sign(_hspd),y,obj_wall))
 {
-x = x + sign(hspd)	
+x = x + sign(_hspd)	
 }
-hspd = 0;
+_hspd = 0;
 }
-x = x + hspd;
+x = x + _hspd;
 
 //colisão vertical
-if place_meeting(x,y+vspd,obj_wall)
+if place_meeting(x,y+_vspd,obj_wall)
 {
-while(!place_meeting(x,y+sign(vspd),obj_wall))
+while(!place_meeting(x,y+sign(_vspd),obj_wall))
 {
-y = y + sign(vspd)	
+y = y + sign(_vspd)	
 }
-vspd = 0;
+_vspd = 0;
 }
-y = y + vspd;
+y = y + _vspd;
 #endregion
