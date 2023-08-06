@@ -31,6 +31,7 @@ O SQL foi desenvolvido originalmente no início dos anos 70 nos laboratórios da
 
 
 4 - CRONOGRAMA
+
 ![image](https://github.com/regi-lpf/REGIS202DP/assets/101012911/914b1aa9-d2f8-4acc-9641-b2c6a00e0f07)
 
 5 - DIVISÃO DO TRABALHO
