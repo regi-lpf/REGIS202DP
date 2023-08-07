@@ -1,8 +1,7 @@
-# REGIS202DP
-Jogo Past Fears
+# Past Fears
 
 1 - TEMA DETALHADO
-	<p>O presente projeto trata-se de um jogo, que tem a história como objetivo principal.</p>
+	<p>O presente projeto trata-se de um jogo, chamado "Past Fears", construído para o curso Técnico em Informática Integrado ao Ensino Médio, para a disciplina de "Desenvolvimento de Projeto", ministrada pelo Professor Dr. Luiz Ricardo Uriarte.</p>
 	<p>O jogo pode ter seu estilo considerado como RPG, Roguelike e Metroidvania. A história do jogo vai ter um foco especial por causa do tema que apresentamos, que é a de uma criança que tem que fazer de tudo pra conseguir passar por seus traumas, tanto por causa de uma família que não dá atenção, quanto por outros temas que pessoas da idade passam, e a gente, como criança, tem que passar por tudo isso e fazer o possível para superar essas dificuldades. Tentando de um jeito mostrar como a cabeça de uma criança funciona e como isso influencia no seu desenvolvimento como pessoa.</p>
 Todas as fases vão ter diversos monstros para tentar parar você, e você tem que passar por eles para assim passar de fase. Cada fase muda a idade do personagem, assim mudando os problemas. 
 	<p>A primeira fase do jogo, é mais focada nos medos de uma criança, o “Medo do Escuro”, nessa fase você enfrentará formas que parecem monstros e tentar lidar com o "Monstro do Armário", que parece para te assombrar todas as noites, nessa fase o personagem tem 4 anos. 
