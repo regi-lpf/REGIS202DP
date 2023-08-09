@@ -28,3 +28,11 @@ usa_arma = function()
 		arma.image_angle = _dir;
 	}
 }
+
+dropa_arma = function(){
+		var _dir = point_direction(x, y, mouse_x, mouse_y);
+		var _x = x + lengthdir_x(sprite_height / 2, _dir);
+		arma.x = _x + 15;
+		arma = noone;
+		
+	}

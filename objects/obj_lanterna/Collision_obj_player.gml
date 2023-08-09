@@ -1,3 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-other.arma = id;
+if (other.arma == noone){
+	other.arma = id;
+}

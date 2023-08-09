@@ -13,31 +13,14 @@ if surface_exists(sombra_surface){
 	
 	gpu_set_blendmode(bm_subtract);
 	draw_circle(obj_player.x, obj_player.y, 20 + random(1.5), false);
-	draw_circle(obj_lanterna.x, obj_lanterna.y, 32 + random(1.5), false);
-	
-	if instance_exists(obj_tiro_luz){
-		var _num = instance_number(obj_tiro_luz);
-		
-		for (var i = 0; i < _num; i++){
-			var _inst = instance_find(obj_tiro_luz, i);		
-			
-			draw_circle(_inst.x, _inst.y, 32 + random(1.5), false);
-		}
-	}
+	luz(obj_lanterna, 32);
+	luz(obj_tiro_luz, 32);
 	
 	draw_set_alpha(0.5);
 	draw_circle(obj_player.x, obj_player.y, 32 + random(1.5), false);
-	draw_circle(obj_lanterna.x, obj_lanterna.y, 44 + random(1.5), false);
+	luz(obj_lanterna, 44);
+	luz(obj_tiro_luz, 44);
 	
-	if instance_exists(obj_tiro_luz){
-		var _num = instance_number(obj_tiro_luz);
-		
-		for (var i = 0; i < _num; i++){
-			var _inst = instance_find(obj_tiro_luz, i);		
-			
-			draw_circle(_inst.x, _inst.y, 32 + random(1.5), false);
-		}
-	}
 	
 	draw_set_alpha(0.95);
 	gpu_set_blendmode(bm_normal);

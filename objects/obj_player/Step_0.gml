@@ -3,6 +3,7 @@ var _key_right = keyboard_check(ord("D")) //direita
 var _key_left = keyboard_check(ord("A"))//esquerda
 var _key_up = keyboard_check(ord("W"))//cima
 var _key_down = keyboard_check(ord("S"))//baixo
+var _key_drop = keyboard_check(ord("Q"))//dropar
 #endregion
 #region movimentação
 var _hmove = _key_right - _key_left
@@ -15,7 +16,11 @@ vspd = _vmove * spd;
 #endregion
 #region tiro
 
-
+if (_key_drop){
+	if (arma != noone){
+	dropa_arma();
+	}
+}
 
 #endregion
 #region definir sprites
