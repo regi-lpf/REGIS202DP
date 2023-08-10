@@ -32,7 +32,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.6.0.89",
+    "IDEVersion": "2023.2.1.75",
   },
   "resources": [
     {"id":{"name":"spr_player_hwalk","path":"sprites/spr_player_hwalk/spr_player_hwalk.yy",},},
@@ -52,6 +52,7 @@
     {"id":{"name":"spr_player2_hwalk","path":"sprites/spr_player2_hwalk/spr_player2_hwalk.yy",},},
     {"id":{"name":"obj_iluminacao","path":"objects/obj_iluminacao/obj_iluminacao.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"snd_ambiente","path":"sounds/snd_ambiente/snd_ambiente.yy",},},
     {"id":{"name":"snd_lanterna","path":"sounds/snd_lanterna/snd_lanterna.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],

@@ -1,7 +1,7 @@
 {
   "FolderOrderSettings": [
     {"name":"armas","order":4,"path":"folders/Objects/armas.yy",},
-    {"name":"armas","order":10,"path":"folders/Sprites/armas.yy",},
+    {"name":"armas","order":8,"path":"folders/Sprites/armas.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_player_hwalk","order":2,"path":"sprites/spr_player_hwalk/spr_player_hwalk.yy",},
@@ -13,9 +13,10 @@
     {"name":"spr_player2_upwalk","order":6,"path":"sprites/spr_player2_upwalk/spr_player2_upwalk.yy",},
     {"name":"spr_player_idle","order":1,"path":"sprites/spr_player_idle/spr_player_idle.yy",},
     {"name":"spr_player_upwalk","order":3,"path":"sprites/spr_player_upwalk/spr_player_upwalk.yy",},
-    {"name":"spr_room","order":1,"path":"sprites/spr_room/spr_room.yy",},
+    {"name":"spr_room","order":9,"path":"sprites/spr_room/spr_room.yy",},
     {"name":"obj_invisible_wall","order":5,"path":"objects/obj_invisible_wall/obj_invisible_wall.yy",},
     {"name":"spr_player2_hwalk","order":5,"path":"sprites/spr_player2_hwalk/spr_player2_hwalk.yy",},
     {"name":"obj_iluminacao","order":6,"path":"objects/obj_iluminacao/obj_iluminacao.yy",},
+    {"name":"snd_ambiente","order":1,"path":"sounds/snd_ambiente/snd_ambiente.yy",},
   ],
 }

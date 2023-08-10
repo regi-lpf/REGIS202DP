@@ -30,9 +30,24 @@ usa_arma = function()
 }
 
 dropa_arma = function(){
-		var _dir = point_direction(x, y, mouse_x, mouse_y);
-		var _x = x + lengthdir_x(sprite_height / 2, _dir);
-		arma.x = _x + 15;
-		arma = noone;
-		
+	var _col;
+	
+	with(arma){
+		_col = place_meeting(x, y, obj_wall);
 	}
+	if (!_col){
+		arma.direction = arma.image_angle;
+		arma.speed = 4;
+		arma.atirar = false;
+		arma = noone;
+	}
+}
+
+tela_cheia = function(){
+	if window_get_fullscreen(){
+		window_set_fullscreen(false);
+		window_set_size(1280, 720);
+	}else{
+		window_set_fullscreen(true);
+	}
+}
