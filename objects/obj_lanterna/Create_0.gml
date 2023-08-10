@@ -6,6 +6,9 @@ atirar = false;
 
 delay_tiro = 0;
 
+speed = 6;
+direction = random(360);
+
 image_xscale = 1.5;
 image_yscale = 1.5;
 
@@ -42,3 +45,4 @@ alinhar = function(){
 	image_angle = 0;
 	}
 }
+

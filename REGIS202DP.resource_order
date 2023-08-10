@@ -16,6 +16,7 @@
     {"name":"spr_room","order":9,"path":"sprites/spr_room/spr_room.yy",},
     {"name":"obj_invisible_wall","order":5,"path":"objects/obj_invisible_wall/obj_invisible_wall.yy",},
     {"name":"spr_player2_hwalk","order":5,"path":"sprites/spr_player2_hwalk/spr_player2_hwalk.yy",},
+    {"name":"obj_inimigo_teste","order":2,"path":"objects/obj_inimigo_teste/obj_inimigo_teste.yy",},
     {"name":"obj_iluminacao","order":6,"path":"objects/obj_iluminacao/obj_iluminacao.yy",},
     {"name":"snd_ambiente","order":1,"path":"sounds/snd_ambiente/snd_ambiente.yy",},
   ],

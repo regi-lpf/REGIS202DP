@@ -1,12 +1,11 @@
-audio_play_sound(snd_ambiente, 0, true, -0.5);
-
 #region controles
 var _key_right = keyboard_check(ord("D")); //direita
 var _key_left = keyboard_check(ord("A"));//esquerda
 var _key_up = keyboard_check(ord("W"));//cima
 var _key_down = keyboard_check(ord("S"));//baixo
 var _key_drop = keyboard_check(ord("Q"));//dropar
-var _key_fullscreen = keyboard_check(ord("F"));//toggle fullscreen
+var _key_fullscreen = keyboard_check(vk_f11);//toggle fullscreen
+
 #endregion
 #region movimentação
 var _hmove = _key_right - _key_left;

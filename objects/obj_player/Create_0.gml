@@ -37,7 +37,7 @@ dropa_arma = function(){
 	}
 	if (!_col){
 		arma.direction = arma.image_angle;
-		arma.speed = 4;
+		arma.speed = 8;
 		arma.atirar = false;
 		arma = noone;
 	}

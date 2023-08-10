@@ -12,12 +12,12 @@ if surface_exists(sombra_surface){
 	draw_set_color(c_white);	
 	
 	gpu_set_blendmode(bm_subtract);
-	draw_circle(obj_player.x, obj_player.y, 20 + random(1.5), false);
+	luz(obj_player, 20);
 	luz(obj_lanterna, 32);
 	luz(obj_tiro_luz, 32);
 	
 	draw_set_alpha(0.5);
-	draw_circle(obj_player.x, obj_player.y, 32 + random(1.5), false);
+	luz(obj_player, 32);
 	luz(obj_lanterna, 44);
 	luz(obj_tiro_luz, 44);
 	
