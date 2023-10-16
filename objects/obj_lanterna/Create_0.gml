@@ -6,15 +6,16 @@ atirar = false;
 
 delay_tiro = 0;
 
+delay_pega = 0;
+
 image_xscale = 1.5;
 image_yscale = 1.5;
 
 atirando = function()
 {
+	delay_tiro--;
 	if (atirar)
 	{
-		
-		delay_tiro--;
 		if (delay_tiro <= 0)		
 		{
 			//Resetando delay do tiro
@@ -41,4 +42,6 @@ alinhar = function(){
 	alarm[0] = 1.7 * room_speed;
 	image_angle = 0;
 	}
+	
+	
 }

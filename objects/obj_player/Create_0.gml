@@ -1,8 +1,10 @@
-spd = 7;
+spd = 5;
 hspd = 0;
 vspd = 0;
 global.life = 4;
 image_speed = 0.4
+
+player_spr = 0;
 
 arma = noone;
 
@@ -29,6 +31,8 @@ usa_arma = function()
 	}
 }
 
+
+
 dropa_arma = function(){
 	var _col;
 	
@@ -39,7 +43,9 @@ dropa_arma = function(){
 		arma.direction = arma.image_angle;
 		arma.speed = 4;
 		arma.atirar = false;
+		arma.delay_pega = 0.7 * room_speed;
 		arma = noone;
+		
 	}
 }
 

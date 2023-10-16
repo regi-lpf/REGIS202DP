@@ -1,5 +1,3 @@
-audio_play_sound(snd_ambiente, 0, true, -0.5);
-
 #region controles
 var _key_right = keyboard_check(ord("D")); //direita
 var _key_left = keyboard_check(ord("A"));//esquerda
@@ -7,7 +5,16 @@ var _key_up = keyboard_check(ord("W"));//cima
 var _key_down = keyboard_check(ord("S"));//baixo
 var _key_drop = keyboard_check(ord("Q"));//dropar
 var _key_fullscreen = keyboard_check(ord("F"));//toggle fullscreen
+var _key_pause = keyboard_check(vk_escape);//toggle pause menu
 #endregion
+
+if (_key_pause){
+	room_goto(rm_pause);
+	global.persistent = true;
+	instance_deactivate_all(true);
+
+}
+
 #region movimentação
 var _hmove = _key_right - _key_left;
 var _vmove = _key_down - _key_up;
