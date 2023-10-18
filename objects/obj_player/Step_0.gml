@@ -35,4 +35,6 @@ else
 
 #endregion
 
+knockback();
+
 usa_arma();

@@ -4,7 +4,7 @@
   "name": "operagx",
   "option_operagx_display_cursor": true,
   "option_operagx_editUrl": "https://create.gx.games/game/52bbe2d8-ddc6-437b-910a-10d52feee3c6/edit",
-  "option_operagx_game_name": "REGIS202DP",
+  "option_operagx_game_name": "past fears",
   "option_operagx_guid": "52bbe2d8-ddc6-437b-910a-10d52feee3c6",
   "option_operagx_internalShareUrl": "https://gx.games/games/56x98f/regis202dp/tracks/566f25d4-6e60-47b4-a06e-fa42b5b98a9d/",
   "option_operagx_interpolate_pixels": true,

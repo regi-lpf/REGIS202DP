@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 3.96,
+  "duration": 0.545669,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "snd_lanterna.mp3",
+  "soundFile": "snd_lanterna.wav",
   "type": 0,
   "volume": 1.0,
 }

@@ -2,10 +2,9 @@ spd = 3.5;
 hspd = 0;
 vspd = 0;
 len = 0;
-global.life = 3;
+global.life = 2;
+player_score = 0;
 image_speed = 0.4
-
-player_spr = 0;
 
 arma = noone;
 
@@ -33,7 +32,6 @@ usa_arma = function()
 }
 
 
-
 dropa_arma = function(){
 	var _col;
 	
@@ -50,3 +48,11 @@ dropa_arma = function(){
 	}
 }
 
+knockback = function(){
+	if (speed > 0){
+		if (place_meeting(x, y, obj_enemy_ghost)) hspeed *= -1;
+		if (place_meeting(x, y, obj_enemy_ghost)) vspeed *= -1;
+		speed *= 0.9;
+		if (speed <= 0.1) speed = 0;
+	}
+}
