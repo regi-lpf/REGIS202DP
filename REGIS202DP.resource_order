@@ -2,16 +2,16 @@
   "FolderOrderSettings": [
     {"name":"armas","order":3,"path":"folders/Objects/armas.yy",},
     {"name":"menus","order":5,"path":"folders/Objects/menus.yy",},
+    {"name":"options","order":3,"path":"folders/Objects/menus/options.yy",},
     {"name":"pause","order":1,"path":"folders/Objects/menus/pause.yy",},
     {"name":"enemy","order":3,"path":"folders/Sprites/enemy.yy",},
     {"name":"hud","order":8,"path":"folders/Sprites/hud.yy",},
     {"name":"menus","order":7,"path":"folders/Sprites/menus.yy",},
     {"name":"inicial","order":5,"path":"folders/Sprites/menus/inicial.yy",},
+    {"name":"options","order":7,"path":"folders/Sprites/menus/options.yy",},
     {"name":"pause","order":6,"path":"folders/Sprites/menus/pause.yy",},
     {"name":"player","order":2,"path":"folders/Sprites/player.yy",},
     {"name":"room","order":4,"path":"folders/Sprites/room.yy",},
-    {"name":"options","order":3,"path":"folders/Objects/menus/options.yy",},
-    {"name":"options","order":7,"path":"folders/Sprites/menus/options.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"move_state","order":1,"path":"scripts/move_state/move_state.yy",},

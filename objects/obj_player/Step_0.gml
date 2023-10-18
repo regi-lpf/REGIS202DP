@@ -1,6 +1,6 @@
 script_execute(get_input);
 script_execute(move_state);
-
+usa_arma();
 #region tiro
 
 if (key_drop){
@@ -35,6 +35,6 @@ else
 
 #endregion
 
-knockback();
 
-usa_arma();
+
+

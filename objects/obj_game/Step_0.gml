@@ -1,9 +1,6 @@
 script_execute(get_input);
 
 
-
-
-
 if (key_pause){
 	if (room != rm_pause){
 		if (instance_exists(obj_player)){

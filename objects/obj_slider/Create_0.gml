@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-global.volume = 1;
+global.volume = 100;
 global.currentVolume = global.volume;
 
 valor = 1;
@@ -30,8 +30,7 @@ altera_valor = function(){
 		
 		if (_mouse_click){
 			valor = (mouse_x - x)/sprite_width;
-			valor = clamp(valor, 0, 1);
-			global.volume = valor * 1;
+			global.volume = valor;
 		}
 	}else{
 		image_blend = c_white;

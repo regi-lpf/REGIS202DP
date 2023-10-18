@@ -8,4 +8,4 @@ if (global.currentVolume != global.volume) {
 }
 
 altera_valor();
-
+show_debug_message(valor);
