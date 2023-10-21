@@ -3,5 +3,6 @@
 //script_execute(knockback());
 audio_play_sound(snd_hit, 1, false);
 instance_destroy(obj_tiro_luz);
+speed *= .5;
 vidas--;
 obj_player.player_score += 10;

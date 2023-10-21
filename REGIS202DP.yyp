@@ -44,9 +44,10 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.2.1.75",
+    "IDEVersion": "2023.6.0.89",
   },
   "resources": [
+    {"id":{"name":"rm_gameover","path":"rooms/rm_gameover/rm_gameover.yy",},},
     {"id":{"name":"obj_jogar","path":"objects/obj_jogar/obj_jogar.yy",},},
     {"id":{"name":"move_state","path":"scripts/move_state/move_state.yy",},},
     {"id":{"name":"ft_score","path":"fonts/ft_score/ft_score.yy",},},
@@ -66,6 +67,7 @@
     {"id":{"name":"spr_main","path":"sprites/spr_main/spr_main.yy",},},
     {"id":{"name":"spr_heart2","path":"sprites/spr_heart2/spr_heart2.yy",},},
     {"id":{"name":"spr_player2_downwalk","path":"sprites/spr_player2_downwalk/spr_player2_downwalk.yy",},},
+    {"id":{"name":"verifica_resolucao","path":"scripts/verifica_resolucao/verifica_resolucao.yy",},},
     {"id":{"name":"snd_menuclick","path":"sounds/snd_menuclick/snd_menuclick.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"id":{"name":"obj_lanterna","path":"objects/obj_lanterna/obj_lanterna.yy",},},
@@ -108,6 +110,7 @@
     {"roomId":{"name":"rm_sala1","path":"rooms/rm_sala1/rm_sala1.yy",},},
     {"roomId":{"name":"rm_pause","path":"rooms/rm_pause/rm_pause.yy",},},
     {"roomId":{"name":"rm_options","path":"rooms/rm_options/rm_options.yy",},},
+    {"roomId":{"name":"rm_gameover","path":"rooms/rm_gameover/rm_gameover.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},

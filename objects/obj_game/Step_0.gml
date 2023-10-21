@@ -1,5 +1,8 @@
 script_execute(get_input);
 
+ini_open("settings.ini");
+script_execute(verifica_resolucao);
+ini_close();	
 
 if (key_pause){
 	if (room != rm_pause){

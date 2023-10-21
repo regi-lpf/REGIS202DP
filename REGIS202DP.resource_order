@@ -14,6 +14,7 @@
     {"name":"room","order":4,"path":"folders/Sprites/room.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"rm_gameover","order":4,"path":"rooms/rm_gameover/rm_gameover.yy",},
     {"name":"move_state","order":1,"path":"scripts/move_state/move_state.yy",},
     {"name":"spr_player_hwalk","order":1,"path":"sprites/spr_player_hwalk/spr_player_hwalk.yy",},
     {"name":"obj_enemy_ghost","order":7,"path":"objects/obj_enemy_ghost/obj_enemy_ghost.yy",},
@@ -27,6 +28,7 @@
     {"name":"spr_main","order":2,"path":"sprites/spr_main/spr_main.yy",},
     {"name":"spr_heart2","order":1,"path":"sprites/spr_heart2/spr_heart2.yy",},
     {"name":"spr_player2_downwalk","order":4,"path":"sprites/spr_player2_downwalk/spr_player2_downwalk.yy",},
+    {"name":"verifica_resolucao","order":2,"path":"scripts/verifica_resolucao/verifica_resolucao.yy",},
     {"name":"snd_menuclick","order":1,"path":"sounds/snd_menuclick/snd_menuclick.yy",},
     {"name":"rm_menu","order":1,"path":"rooms/rm_menu/rm_menu.yy",},
     {"name":"obj_main","order":1,"path":"objects/obj_main/obj_main.yy",},

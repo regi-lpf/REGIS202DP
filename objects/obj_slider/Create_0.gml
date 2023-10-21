@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-global.volume = 100;
-global.currentVolume = global.volume;
+global.volume = 1;
+global.current_volume = global.volume;
 
 valor = 1;
 
@@ -30,12 +30,15 @@ altera_valor = function(){
 		
 		if (_mouse_click){
 			valor = (mouse_x - x)/sprite_width;
-			global.volume = valor;
+			valor = clamp(valor, 0, 1);
+			global.volume = valor * 10;
 		}
 	}else{
 		image_blend = c_white;
 	}
 
 	ini_write_real("sound","volume", valor);
+	
+	ini_close();
 }
 
